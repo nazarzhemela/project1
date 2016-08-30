@@ -1,0 +1,559 @@
+body{
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Futura Book BT Regular';
+    src: url(ufonts.com_futura-book-bt.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans Semibold';
+    src: url(OpenSans-Semibold.ttf);
+}
+
+@font-face {
+    font-family: 'Futura BT Bold';
+    src: url(ufonts.com_futurabt-bold-opentype.otf);
+}
+
+@font-face {
+    font-family: 'Open Sans Italic';
+    src: url(OpenSans-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: url(OpenSans-Regular.ttf);
+}
+
+.topheader{
+    width: 1025px;
+    margin: 0 auto;
+    text-align: right;
+    overflow: auto;
+}
+
+.logo{
+    font-family: "Futura Book BT Regular";
+    color: #ee8129;
+    font-size: 36px;
+    display: inline-block;
+    float: left;
+    margin: 40px 0;
+}
+
+.logo > span{
+    color: #3070a8;
+    text-transform: uppercase;
+}
+
+.topmenu {
+    display: inline-block;
+    margin: 20px 0 0;
+}
+
+ul.topmenulist{
+    margin: 0;
+}
+
+ul.topmenulist li, ul.topmenulist li a {
+    font-family: "Open Sans Semibold";
+    font-size: 14px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #989898;
+    text-decoration: none;
+}
+
+ul.topmenulist li a {
+    padding: 40px 18px;
+    box-sizing: border-box;
+    margin: 0 3px;
+}
+
+ul.topmenulist li a:hover, ul.topmenulist li a:active {
+    border-bottom: 4px solid #3070a8;
+}
+
+.banner{
+    background: url("banner.jpg") no-repeat;
+    background-size: 100%;
+    position: relative;
+    padding: 150px 0 105px 0;
+    text-align: center;
+}
+
+.banner span:first-of-type{
+    font-family: "Futura Book BT Regular";
+    font-size: 36px;
+    color: #fff;
+}
+
+.banner h1{
+    font-family: "Futura BT Bold";
+    font-size: 48px;
+    color: #fff;
+    max-width: 1025px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.banner span:last-of-type{
+    font-family: Calibri;
+    font-style: italic;
+    font-size: 20px;
+    max-width: 590px;
+    margin: 30px auto 0;
+    display: block;
+    color: #ffffff;
+}
+
+.buttonn {
+    margin: 40px auto 0;
+    font-family: "Open Sans Semibold";
+    font-size: 16px;
+    color: #ffffff;
+    padding: 20px 60px;
+    display: inline-block;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+}
+
+.buttonn:hover{
+    border-color: #ee8129;
+    cursor: pointer;
+}
+
+.heading2{
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    font-size: 30px;
+    color: #41525c;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 60px 0;
+}
+
+.columns{
+    width: 1025px;
+    margin: 0 auto 55px;
+    text-align: center;
+}
+
+.columns > div {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.columns > div > h2{
+    font-family: "Futura Book BT Regular";
+    font-size: 30px;
+    color: #3070a8;
+    margin: 30px auto 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.columns > div > img{
+    display: inline-block;
+}
+
+.columns p{
+    font-family: "Open Sans Semibold";
+    font-size: 14px;
+    line-height: 25px;
+    color: #999999;
+}
+
+.secondbg{
+    background: url("images/secondbg.jpg") no-repeat;
+    background-size: 100%;
+}
+
+.secondbg_paranja{
+    padding: 80px 0 75px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.secondbg_paranjablock {
+    width: 1025px;
+    margin: 0 auto;
+}
+
+.secondbg_paranja_textblock{
+    width: 685px;
+}
+
+.secondbg_paranja_textblock > h3{
+    color: #ee8129;
+    font: 26px/48px 'Futura Book BT Regular';
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.secondbg_paranja_textblock > p {
+    font: 19px/30px 'Open Sans Italic';
+    color: #fff;
+}
+
+.secondbg_paranja_textblock ul{
+    margin: 0 0 0 40px;
+}
+
+.secondbg_paranja_textblock ul li{
+    font: 14px/30px 'Open Sans Regular';
+    color: #3070a8;
+    list-style-type: none;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.secondbg_paranja_textblock ul li:last-of-type{
+    margin-bottom: 0;
+}
+
+.secondbg_paranja_textblock ul li:nth-of-type(odd){
+    color: #9d9d9d;
+}
+
+.secondbg_paranja_textblock ul li:nth-of-type(odd):before{
+    content: url("images/grey_list.png");
+}
+
+.secondbg_paranja_textblock ul li:before{
+    content: url(images/blue_list.png);
+    position: absolute;
+    left: -20px;
+}
+
+body{
+    font-family: "Trebuchet MS";
+    margin: 0;
+}
+h2{
+    font-size: 30px;
+    margin: 60px auto;
+    text-align: center;
+    color: #41525c;
+    text-transform: uppercase;
+}
+.container{
+    margin: 0 auto;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: top;
+}
+.first, .main, .third{
+    position: relative;
+    display: inline-block;
+    width: 290px;
+    background-color: #ee8129;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    border-top: 10px solid #ee8129;
+    border-bottom: 3px solid #ee8129;
+    border-left: 3px solid #ee8129;
+    border-right: 3px solid #ee8129;
+    -webkit-box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.37);
+    -moz-box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.37);
+    box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.37);
+    text-align: left;
+}
+.main{
+    margin: 0 -10px;
+    z-index: 100;
+}
+
+.first, .third{
+    border: 1px solid #e8eaec;
+    box-shadow: none;
+}
+
+.first{
+    background-color: #37c2d3;
+}
+
+.third{
+    background-color: #1cb79a;
+}
+
+.first > .second, .third > .second{
+    border: 1px solid #e8eaec;
+    box-shadow: none;
+    padding-bottom: 20px;
+}
+
+.value, .iconic{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+.iconic{
+    font-weight: normal;
+    padding: 20px 0;
+}
+.value {
+    line-height: 75px;
+    color: white;
+    margin: 0;
+}
+.second{
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+.second > .iconic {
+    color: #3f4042;
+}
+.price {
+    text-align: center;
+    font-size: 72px;
+    color: #35495a;
+}
+#dollar{
+    vertical-align: super;
+    font-size: 20px;
+    position: relative;
+    top: -13px;
+    left: -5px;
+}
+#monthly {
+    vertical-align: sub;
+    font-size: 18px;
+}
+.second ul{
+    margin: 33px auto 0;
+    list-style-type: none;
+    width: 257px;
+    padding: 0;
+}
+.second ul li{
+    padding: 10px 0 10px 50px;
+    background-color: #f5f5f6;
+    margin: 1px 0 0 0;
+}
+.second ul li:before{
+    content: url("tick2.png");
+    position: relative;
+    left: -20px;
+}
+.second ul li:nth-of-type(odd){
+    background-color: #edf5fd;
+}
+.enroll{
+    margin: 20px auto 0 auto;
+    font-weight: bold;
+    text-align: center;
+    width: 257px;
+    background-color: #ee8129;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 13px 0;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-bottom: 2px solid #b3560b;
+}
+.enroll:hover{
+    border-bottom: 2px solid #ee8129;
+}
+
+.first .enroll, .third .enroll{
+    background-color: #3371a6;
+    border-color: #16436a;
+}
+
+.first .enroll:hover, .third .enroll:hover{
+    border-bottom: 2px solid #3371a6;
+}
+
+body{
+    margin: 0;
+    font-family: "Trebuchet MS";
+}
+
+.container2{
+    margin: 75px 0 0 0;
+    background: url("bg-color.jpg") repeat-x;
+    background-size: auto 100%;
+}
+.paranja{
+    background-color: #00223f;
+    opacity: 0.93;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    padding: 0 0 80px;
+}
+
+h2.heading {
+    text-align: center;
+    font-size: 40px;
+    color: #3170a8;
+    text-transform: uppercase;
+    margin: 60px 0 60px 0;
+}
+
+h2.heading > span{
+    color: #ee8129;
+}
+
+.testimonals{
+    white-space: nowrap;
+    text-align: center;
+}
+
+.testimonals img {
+    float: left;
+}
+
+.firstestimonal, .secondtestimonal{
+    width: 490px;
+    display: inline-block;
+    white-space: normal;
+    text-align: left;
+    margin-left: 40px;
+    vertical-align: top;
+}
+
+.cytata{
+    margin-left: 125px;
+    background-color: #f7f7f7;
+    padding: 12px 15px 7px;
+    line-height: 20px;
+    position: relative;
+}
+
+.cytata p{
+    margin: 0;
+    color:#666666;
+    font-size: 13px;
+}
+.cytata:before{
+    content: url("task2-tick.png");
+    position: absolute;
+    top: 38px;
+    left: -17px;
+}
+.regal {
+    padding: 0 0 10px 0;
+    margin: 0 0 10px;
+    color: #3070a8;
+    font-style: italic;
+    font-size: 13px;
+    border-bottom: 1px dashed #666666;
+    box-sizing: border-box;
+}
+
+.regal div {
+    padding: 0 0 12px 0;
+    margin: 0;
+}
+
+.regal span {
+    float: right;
+}
+
+.bottomcontainer{
+    width: 512px;
+    margin: 0 auto;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.bottomcontainer > div{
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+}
+
+.leftbottomcontainer{
+    padding: 45px 0 5px;
+}
+
+.leftbottomcontainer > div {
+    margin: 15px 0 0 60px;
+    font-family: "Open Sans Semibold";
+    font-size: 14px;
+    color: #666;
+    position: relative;
+}
+
+.leftbottomcontainer > div:first-of-type {
+    margin-top: 0;
+}
+
+.leftbottomcontainer > div:first-of-type:before{
+    content: url(images/place.png);
+    position: absolute;
+    left: -50px;
+    top: -5px;
+}
+
+.leftbottomcontainer > div:nth-of-type(5):before{
+    content: url(images/mobile.png);
+    position: absolute;
+    left: -48px;
+    top: -4px;
+}
+
+.leftbottomcontainer > div:nth-of-type(6):before{
+    content: url(images/letter.png);
+    position: absolute;
+    left: -50px;
+    top: 5px;
+}
+
+img.socialiconsimg:not(:first-of-type){
+    margin-left: 25px;
+}
+
+.leftbottomcontainer > div.socialicons{
+    margin-left: 5px;
+    margin-top: 35px;
+}
+
+.rightbottomcontainer {
+    width: 50%;
+    display: block;
+    float: right;
+    overflow: hidden;
+}
+
+.superbottomconatiner{
+    width: 100%;
+}
+
+.superbottomconatiner{
+    text-align: right;
+}
+
+.superbottomconatiner *{
+    text-align: left;
+}
+
+footer{
+    background-color: #3070a8;
+    padding: 25px 0;
+    text-align: center;
+    font-family: "Open Sans Regular";
+    font-size: 14px;
+    color: white;
+    clear: both;
+}
+footer a {
+    color: #1d1c1c;
+    font-family: "Open Sans Semibold";
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.designed{
+    margin-top: 12px;
+}
